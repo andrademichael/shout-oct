@@ -1,17 +1,13 @@
-#letter {
+#shout {
   display: none;
   margin: auto;
-  background-image: url("../img/email.png");
-  background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 227px;
-  padding-left: 40px;
-  color: black;
+  padding-top: 50px;
   width: 800px;}
 
 body {
   color: white;
-  background-color: maroon;
+  background-color: darkgreen;
 }
 
 button {

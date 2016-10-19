@@ -1,18 +1,10 @@
 $(function(){
   $("#fields form").submit(function() {
-    var titleInput = $("input#title").val();
-    var nameInput = $("input#name").val();
-    var positionInput = $("input#position").val();
-    var favCompanyInput = $("input#favCompany").val();
-    var addressInput = $("input#address").val();
+    var entry = $("input#entry").val();
+    entry = entry.toUpperCase();
+    $(".responseUpperCase").text(entry);
 
-    $(".name").text(nameInput);
-    $(".address").text(addressInput);
-    $(".position").text(positionInput);
-    $(".favCompany").text(favCompanyInput);
-    $(".title").text(titleInput);
-
-    $("#letter").show();
+    $("#shout").show();
 
     event.preventDefault();
   });
